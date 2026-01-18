@@ -6,4 +6,5 @@ Oppgavesett 1.3 i DATA1500 våren 2026. Docker installasjon og introduksjon i da
 
 
 \## Tester git ssh config i Windows
+\## Og Windows GitBash
 
