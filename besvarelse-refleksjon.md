@@ -10,7 +10,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Det er en stor fordel, fordi vi kan bruke docker-compose for å implementere innstilinger og funksjoner til PostgreSQL fra starten i docker-compose.yml filen, i tillegg kan vi sende og installere databasen vår i annnet systemet uten tillegginstalasjoner. 
 
 ---
 
@@ -18,7 +18,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Det betyr en spesiell plass, hvor data lagres, og hvorfa implementeres til og meg hvis databasen blir re-brukt, re-deployt, eller re-installert. Derfra en data lagres der forsvinner ikke, og installeres med en gang databasen går vi gjennom.
 
 ---
 
@@ -26,7 +26,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Nei, men vi mister container og nettverk som ble brukt for å implementere noe i databasen. Volumen vanligvis mistes ikke på denne måten, og vi kan bruke den igjen når docker-compose og containeren blir installert.
 
 ---
 
@@ -34,7 +34,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+På den ene siden når det blir kjørt første gang, da alt som nettverk, volumes, data oprettes og bruker ikke noe mer, alt oprettes på de funksjonene ble beskriv i docker-compose.yml. Fra den andre siden så fra andre, tredje osv. gangene da blir de funsjonene som blir ikke oppdatert fra første kjøring.
 
 ---
 
@@ -42,7 +42,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Det kan vi dele med hverandre uten noe problem men det må vi jo passe på de passordene, og personlig data som API-nøkklene vi deler til, fordi det er farlig for Git-repo, og user-names som kunne føre til sikkerhet-trussel.
 
 ---
 
@@ -52,7 +52,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Det som blir visst under LEFT-JOIN, da blir venstre-tabellen tatt og visst til og meg vil det ikke være søke-resutater i denne radene vises. Inner-join viser rader i tabellen som blir relsultativt, det betyr men noe verdi i begge tabbelene som vises.
 
 ---
 
@@ -60,7 +60,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Det brukes for å hindre at data havner i "ulogisk" eller inkonsistent tilstand, det betyr at alltid alle studenter skal peke bare på de programmene som er gyldige, og at vi ikke kan få studenter uten program.
 
 ---
 
@@ -68,7 +68,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Dennee kommandoen i SQL brukes for å begrense avgjørende av aggregatfunksjonen. Det betyr at det kommer med den for å samle rader i grupper, basert på kolonner, og beregner verdi per gruppe. 
 
 ---
 
@@ -76,7 +76,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+Det er så viktig fordi indekser bygger opp rakseste mulighet å slå opp rader for tabellen. Den peker på nøkkelverdier til hvor faktiske radele ligger, og hvordan kan vi sende, hvorfra lese, og installere data. Også indekser brukes får å håndheve grenser.
 
 ---
 
@@ -84,7 +84,7 @@ Skriv dine svar på refleksjonsspørsmålene fra hver oppgave her.
 
 **Ditt svar:**
 
-[Skriv ditt svar her]
+For det førsta vi kan unngå SELECT * spørringer, fordi det bruker masse RAM som bruker tid for å avgjøre spørringer og å vise informasjon, også unngå "tykte" spørringer og arbeid med stor data i prosessen.
 
 ---
 
